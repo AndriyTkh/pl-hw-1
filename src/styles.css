@@ -1,0 +1,36 @@
+p {
+  margin: 0;
+}
+
+table {
+  width: 90vw;
+  /* border: 1px solid black; */
+  text-align: left;
+}
+tr {
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.193);
+}
+td,
+th {
+  padding: 8px 16px;
+}
+svg {
+  width: 12px;
+  height: 12px;
+}
+
+.family-title {
+  display: flex;
+  gap: 8px;
+  align-items: baseline;
+}
+
+.blue {
+  fill: rgb(51, 124, 226);
+}
+
+.icon-box {
+  display: flex;
+  align-items: baseline;
+  gap: 4px;
+}
